@@ -3,6 +3,7 @@ import { useState } from "react";
 const LINKS = {
   linkedin: "https://www.linkedin.com/in/taha-bin-raheel/",
   github: "https://github.com/TahaBRaheel",
+  fault: "https://github.com/TahaBRaheel/MetHacks2023Base",
   email: "mailto:taha.binraheel@gmail.com",
   roblox: "https://www.roblox.com/games/15775582193/Meteor-Mining-Simulator",
 };
@@ -16,7 +17,7 @@ const work = [
 const projects = [
   { name: "Roblox: Meteor Mining Simulator", href: LINKS.roblox },
   { name: "MindVault", href: LINKS.github },
-  { name: "Fault Finder", href: LINKS.github },
+  { name: "Fault Finder", href: LINKS.fault },
 ];
 
 const skills = {
